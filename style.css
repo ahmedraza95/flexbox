@@ -1,0 +1,164 @@
+#header {
+    border: 2px solid red;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+#child1 {
+    background-color: blue;
+    padding: 20px;
+}
+
+#child2 {
+    background-color: antiquewhite;
+    justify-content: flex-end;
+
+}
+
+.childproduct {
+    display: flex;
+    padding: 20px;
+}
+
+.child {
+    padding: 20px;
+}
+
+#childproduct {
+    background-color: aqua;
+}
+
+#childteams {
+    background-color: burlywood;
+}
+#childproduct:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+#childteams:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+#child1:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+.content {
+    display: flex;
+}
+.commoncontent {
+    height: 70vh;
+    border: 2px solid red;
+    flex-grow:1;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+#contentside {
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.footer {
+    height: 19vh;
+    border: 5px solid blue;
+}
+
+#contact {
+    background-color: burlywood;
+    flex-grow: 1;
+}
+
+#about {
+    background-color: lightgrey;
+    flex-grow: 1;
+}
+
+#career {
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+.footer {
+    display: flex;
+    flex-grow: 1;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.childfooter:hover {
+    cursor: pointer;
+}
+
+.childfooter {
+    padding: 10px;
+}
+
+#career:hover {
+    background-color: cadetblue;
+    color: white;
+
+}
+
+#about:hover {
+    background-color: cadetblue;
+    color: white;
+
+}
+#contact:hover {
+    background-color: cadetblue;
+    color: white;
+
+}
+
+.midcontent {
+    border: 3px solid red;
+
+        
+}
+
+#content1 {
+    display: flex;
+    text-align: top;
+    box-sizing: border-box;
+}
+
+#content2 {
+    display: flex;
+    text-align: top;
+    box-sizing: border-box;
+    /* justify-content: flex-end; */
+    /* flex-basis: 1  ; */
+    flex-direction: row-reverse;
+}
+
+#content3 {
+    display: flex;
+    text-align: top;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sidebar {
+    border: 2px solid red;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+
+}
